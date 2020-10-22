@@ -13,11 +13,9 @@ matrix:
         - OS_VERSION=8
     - os: linux
       dist: focal
-    - compiler: "gcc"
-      os: osx
+    - os: osx
       osx_image: xcode10.1
-    - compiler: "gcc"
-      os: osx
+    - os: osx
       osx_image: xcode11
 
 before_install:
